@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tipos de cuenta</title>
+  <style>
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+<link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+  body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  }
+  body > div{
+  width: 45%;
+  }
+</style>
+<style>
+.task-list-item {
+  list-style-type: none;
+}
+
+.task-list-item-checkbox {
+  margin-left: -20px;
+  vertical-align: middle;
+  pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+  --color-note: #2f81f7;
+  --color-tip: #3fb950;
+  --color-warning: #d29922;
+  --color-severe: #db6d28;
+  --color-caution: #f85149;
+  --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+  
+</head>
+<body class="vscode-body vscode-light">
+  <span id="markdown-mermaid" aria-hidden="true"
+    data-dark-mode-theme="dark"
+    data-light-mode-theme="default"></span>
+<div>
+<h1 id="tipos-de-cuenta">Tipos de cuenta</h1>
+<h2 id="individual">Individual</h2>
+<h3 id="requisitos">Requisitos</h3>
+<ul>
+<li>Correo electrónico personal (Gmail/Apple ID)</li>
+<li>Datos personales
+<ul>
+<li>Nombre completo</li>
+<li>Dirección</li>
+<li>Número telefónico</li>
+<li>Identificación oficial</li>
+<li>Información fiscal para temas de impuestos (Especialmente en casos donde se reciba dinero por medio de la App)</li>
+</ul>
+</li>
+<li>Pago de cuota y creación de cuenta de pagos
+<ul>
+<li>Google: Pago único de $25 USD</li>
+<li>Apple: Pago anual de $90 USD</li>
+</ul>
+</li>
+</ul>
+<h3 id="características">Características</h3>
+<ul>
+<li>Tiempo de verificación: Hasta 48 horas</li>
+<li><u>Autoría de la app es personal (Desarrollada por: Juan Gutiérrez)</u></li>
+<li><u>Apple no permite dar acceso a múltiples cuentas de desarrollador para realizar cambios en la App store, se tiene que usar la principal (Esto no afecta el proceso de desarrollo actual)</u></li>
+<li>Google no tiene diferencias en funcionalidad</li>
+<li>Migración a cuenta empresarial
+<ul>
+<li>Google: Requiere crear una nueva cuenta pagando de nuevo la cuota de $25 USD, es posible migrar las apps de la cuenta individual a la empresarial</li>
+<li>Apple: Cuenta con un proceso de conversión de cuenta. Se requiere proporcionar la información requerida para las cuentas empresariales. Si el periodo de suscripción sigue activo este se mantiene, sin embargo, no es posible cambiar el Apple ID asociado a la cuenta y este quedará como contacto o representante legal</li>
+</ul>
+</li>
+</ul>
+</div>
+<div style="padding-top: 44px;">
+<h2 id="empresa">Empresa</h2>
+<h3 id="requisitos-1">Requisitos</h3>
+<ul>
+<li>Correo electrónico institucional asociado con la empresa (Gmail/Apple ID)</li>
+<li>Datos de la empresa
+<ul>
+<li>Razón social</li>
+<li>Dirección fiscal</li>
+<li>Número DUNS<sup><a href = "#-número-duns">1</a></sup></li>
+<li>Número telefónico asociado a la empresa</li>
+<li>Sitio web público con dominio asociado a la empresa</li>
+<li>Giro</li>
+<li>Ventas anuales</li>
+<li>Número de empleados</li>
+<li>Datos de contacto de accionistas</li>
+<li>Acta Constitutiva o Registro Fiscal</li>
+<li>Último estado financiero</li>
+<li>Información fiscal para temas de impuestos (Especialmente en casos donde se reciba dinero por medio de la App)</li>
+</ul>
+</li>
+<li>Datos de representante legal
+<ul>
+<li>Nombre completo</li>
+<li>Dirección</li>
+<li>Número telefónico</li>
+<li>Identificación oficial</li>
+</ul>
+</li>
+<li><strong>El representante debe tener la autoridad legal para firmar contratos con Apple/Google en nombre de la empresa</strong></li>
+<li>Pago de cuota y creación de cuenta de pagos
+<ul>
+<li>Google: Pago único de $25 USD</li>
+<li>Apple: Pago anual de $90 USD</li>
+</ul>
+</li>
+</ul>
+<h4 id="-número-duns"><sup>1</sup> Número DUNS</h4>
+<ul>
+<li>Establece la identidad de la empresa</li>
+<li>Se solicita a <a href="https://es.cialdnb.com/duns-number">CIAL Dun &amp; Bradstreet</a></li>
+<li>Vigencia de 1 año</li>
+<li>Tiempo de trámite 30 días (Acelerable a 5-7 días hábiles bajo una cuota de $299 USD)</li>
+<li>Requiere contacto constante con representantes de CIAL Dun &amp; Bradstreet por parte de una persona con acceso a documentos oficiales de la empresa</li>
+</ul>
+<h3 id="características-1">Características</h3>
+<ul>
+<li>Tiempo de verificación: Hasta 48 horas</li>
+<li><u>Autoría de la app es empresarial (Desarrollada por: Creadores de Éxitos, S.A. de C.V.)</u></li>
+<li><u>Apple permite dar acceso a múltiples cuentas de desarrollador para realizar cambios en la App store, y múltples cuentas tester (Esto no afecta el proceso de desarrollo actual)</u></li>
+<li>Google no tiene diferencias en funcionalidad</li>
+</ul>
+</div>
+</body>
+</html>
